@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook- entre ou cadastre-se</title>
+    <link rel="shortcut icon" href="imagens/Cheezen-Web-2-Facebook-2.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(241, 244, 246);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        div{
+            background-color: rgb(246, 248, 250);
+            position: absolute;
+            top: 50%;
+            left: 75%;
+            transform: translate(-50%, -50%);
+            padding: 50px;
+            border-radius: 11px;
+            box-shadow: 0px 2px 9px rgb(172, 172, 172);
+        }
+        input{
+            padding: 10px;
+            width: 107%;
+            
+            font-size: 1.2rem;
+            border: none;
+            outline: aquamarine;
+            border-radius: 4px;
+        }
+        .lock{
+            padding: 10px;
+            width: 16.6rem;
+            background-color: dodgerblue;
+            border: none;
+            border-radius: 5px;
+            font-weight: bolder;
+            color: #ffff;
+            cursor: pointer;
+        }
+        .lock:hover {
+            background-color: rgb(26, 120, 214);
+        }
+        .lie {
+            font: normal 12pt arial;
+            color: dodgerblue;
+            text-align: center;
+            text-decoration: none;
+        }
+        #crock {
+            background-color: rgb(38, 167, 38);
+            color: #ffff;
+            font-weight: bolder;
+            border: none;
+            padding: 17px;
+            border-radius: 5px;
+            transform: translate(+48%);
+            cursor: pointer;
+        }
+        #crock:hover {
+            background-color: rgb(35, 134, 35);
+        }
+        #face {
+            top: 50%;
+            left: 75%;
+            font-weight: bolder;
+            transform: translate(+10%, +90%);
+            color: dodgerblue;
+            font-size: 80px;
+        }
+        #cell {
+            top: 50%;
+            left: 80%;
+            transform: translate(+10%, +100%);
+            color: #000000;
+            font-weight: lighter;
+        }
+        #bas {
+            top: 60%;
+            left: 80%;
+            transform: translate(+10%, +100%);
+            color: #000000;
+        }
+        #vok {
+            top: 50%;
+            left: 75%;
+            transform: translate(60%, +2100%);
+            color: #000000;
+        }
+        .log {
+            text-decoration: none;
+            color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="face">Facebook</h1>
+    <h2 id="cell">Logins Recentes</h2>
+    <p id="bas"><small>Clique na sua foto ou adicione uma conta</small></p>
+    <div>
+        <input type="text" placeholder="Email ou telefone">
+        <br>
+        <br>
+        <input type="password" placeholder="Senha">
+        <br>
+        <br>
+        <button class="lock">Entrar</button>
+        <br>
+        <br>
+        <p class="lie"><a href="https://pt-br.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" class="log">Esqueceu a senha?</a></p>
+        <br>
+        <hr>
+        <br>
+        <button id="crock">Criar Nova Conta</button>
+        
+    </div>
+    
+</body>
+</html>
